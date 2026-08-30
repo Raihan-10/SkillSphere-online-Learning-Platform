@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "Rose",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Development",
+    "instructor_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Modern React.js Development",
+    "instructor": "Sarah Wilson",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build modern and interactive web applications using React.js.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&auto=format&fit=crop&q=60",
+    "category": "Development",
+    "instructor_image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Michael Brown",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn the fundamentals of user interface and user experience design.",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&auto=format&fit=crop&q=60",
+    "category": "Design",
+    "instructor_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science",
+    "instructor": "Emily Johnson",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Analyze data and build practical projects using Python and popular data science tools.",
+    "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHl0aG9uJTIwZm9yJTIwRGF0YSUyMFNjaWVuY2V8ZW58MHwyfDB8fHwy",
+    "category": "Data Science",
+    "instructor_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Fundamentals",
+    "instructor": "David Miller",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn SEO, social media marketing, content strategy, and digital advertising.",
+    "image": "https://images.unsplash.com/photo-1664454715791-00fa65761ea1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpZ2l0YWwlMjBNYXJrZXRpbmclMjBGdW5kYW1lbnRhbHN8ZW58MHwyfDB8fHwy",
+    "category": "Marketing",
+    "instructor_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Machine Learning with Python",
+    "instructor": "Sophia Anderson",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Understand machine learning concepts and build real-world predictive models with Python.",
+    "image": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFjaGluZSUyMExlYXJuaW5nJTIwd2l0aCUyMFB5dGhvbnxlbnwwfDJ8MHx8fDI%3D",
+    "category": "Artificial Intelligence",
+    "instructor_image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Professional Graphic Design",
+    "instructor": "Daniel Smith",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master visual design principles and create professional digital graphics.",
+    "image": "https://images.unsplash.com/photo-1740059021917-425431914689?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHJvZmVzc2lvbmFsJTIwR3JhcGhpYyUyMERlc2lnbnxlbnwwfDJ8MHx8fDI%3D",
+    "category": "Design",
+    "instructor_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Introduction to Cybersecurity",
+    "instructor": "James Taylor",
+    "duration": "16 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn the fundamentals of cybersecurity, online threats, and security best practices.",
+    "image": "https://images.unsplash.com/photo-1667670778881-537035257bd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfDJ8MHx8fDI%3D",
+    "category": "Cybersecurity",
+    "instructor_image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80"
+  }
+]
