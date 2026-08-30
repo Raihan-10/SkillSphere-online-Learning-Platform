@@ -6,6 +6,7 @@ import LearningTips from "./LearningTips";
 import TopInstructors from "./TopInstructors";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
+import TrendingCourses from "./TrendingCourses";
 
 export default function Homepage() {
   return (
@@ -30,6 +31,8 @@ export default function Homepage() {
           ))}
         </div>
       </div>
+      {/* trending courses */}
+      <TrendingCourses/>
       {/* learning tips */}
       <LearningTips />
       {/* instructors */}
