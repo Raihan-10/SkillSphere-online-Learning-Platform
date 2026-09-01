@@ -33,9 +33,10 @@ export default function CourseCard({ card }) {
           </div>
         </div>
 
-        <div className="card-actions justify-end md:mt-5">
+        <div className="card-actions items-center justify-between md:mt-5">
+          <span className="text-lg md:text-xl font-bold">{card.price}</span>
           <button className="btn bg-blue-900  text-white hover:bg-black duration-150 ">
-            <Link href={'/'} >View Details</Link>
+            <Link href="/course">View Details</Link>
           </button>
         </div>
       </div>

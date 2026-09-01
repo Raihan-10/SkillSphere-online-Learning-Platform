@@ -9,6 +9,7 @@
     "description": "Learn full-stack web development from scratch.",
     "image": "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Development",
+    "price": "$50.99",
     "instructor_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -21,6 +22,7 @@
     "description": "Build modern and interactive web applications using React.js.",
     "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&auto=format&fit=crop&q=60",
     "category": "Development",
+    "price": "$39.99",
     "instructor_image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -33,6 +35,7 @@
     "description": "Learn the fundamentals of user interface and user experience design.",
     "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&auto=format&fit=crop&q=60",
     "category": "Design",
+    "price": "$49.99",
     "instructor_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -46,6 +49,7 @@
     "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHl0aG9uJTIwZm9yJTIwRGF0YSUyMFNjaWVuY2V8ZW58MHwyfDB8fHwy",
     "category": "Data Science",
     "tag": "Trending",
+    "price": "$89.99",
     "instructor_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -58,6 +62,7 @@
     "description": "Learn SEO, social media marketing, content strategy, and digital advertising.",
     "image": "https://images.unsplash.com/photo-1664454715791-00fa65761ea1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpZ2l0YWwlMjBNYXJrZXRpbmclMjBGdW5kYW1lbnRhbHN8ZW58MHwyfDB8fHwy",
     "category": "Marketing",
+    "price": "$29.99",
     "instructor_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -71,6 +76,7 @@
     "image": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFjaGluZSUyMExlYXJuaW5nJTIwd2l0aCUyMFB5dGhvbnxlbnwwfDJ8MHx8fDI%3D",
     "category": "Artificial Intelligence",
     "tag": "Trending",
+    "price": "$79.99",
     "instructor_image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -83,6 +89,7 @@
     "description": "Master visual design principles and create professional digital graphics.",
     "image": "https://images.unsplash.com/photo-1740059021917-425431914689?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHJvZmVzc2lvbmFsJTIwR3JhcGhpYyUyMERlc2lnbnxlbnwwfDJ8MHx8fDI%3D",
     "category": "Design",
+    "price": "$39.99",
     "instructor_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
   },
   {
@@ -96,6 +103,7 @@
     "image": "https://images.unsplash.com/photo-1667670778881-537035257bd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfDJ8MHx8fDI%3D",
     "category": "Cybersecurity",
     "tag": "Trending",
+    "price": "$89.99",
     "instructor_image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80"
   }
 ]

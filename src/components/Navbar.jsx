@@ -9,7 +9,7 @@ export default function Navbar() {
       <p className='font-bold text-3xl'><span className='text-blue-500'>Skill</span>sphere</p>  
       <div className='flex justify-center gap-5 list-none'>
         <li><Link href={'/'}>Home</Link></li>
-        <li><Link href={'/'}>Courses</Link></li>
+        <li><Link href="/course">Courses</Link></li>
         <li><Link href={'/'}>My Profile</Link></li>
       </div>
       <div className='flex md:justify-end'>
