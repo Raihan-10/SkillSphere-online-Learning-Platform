@@ -26,7 +26,7 @@ export default function AllCourses() {
           {/* search */}
           <div className=" md:w-1/2">
             <input
-              className="w-full border rounded-4xl px-3"
+              className="w-full border rounded-full px-3"
               type="text"
               placeholder="search by title/category/instructor's name"
               value={search}

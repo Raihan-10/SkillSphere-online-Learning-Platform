@@ -3,107 +3,224 @@
     "id": 1,
     "title": "Complete Web Development Bootcamp",
     "instructor": "Rose",
+    "instructor_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Senior full-stack engineer and educator with over 8 years of experience building scalable web applications and mentoring aspiring developers.",
+    "enrolled": "1,250+ Enrolled",
     "duration": "20 hours",
     "rating": 4.8,
     "level": "Beginner",
-    "description": "Learn full-stack web development from scratch.",
-    "image": "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Development",
     "price": "$50.99",
-    "instructor_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Development",
+    "description": "Learn full-stack web development from scratch with HTML5, CSS3, JavaScript, React, and Node.js through real-world projects.",
+    "image": "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?q=80&w=1332&auto=format&fit=crop",
+    "what_you_will_learn": [
+      "Build full-stack web applications and deploy to the cloud",
+      "Master modern JavaScript (ES6+), React 19, and Tailwind CSS",
+      "Create robust REST APIs with Node.js and Express",
+      "Implement user authentication and MongoDB database management"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Web Fundamentals: HTML5 Semantic Structure & Modern CSS", "lessons": "6 lessons • 2h 15m" },
+      { "chapter": "02", "title": "JavaScript Mastery: Modern ES6+, DOM & Async Programming", "lessons": "10 lessons • 5h 30m" },
+      { "chapter": "03", "title": "Frontend Engineering with React & Tailwind CSS", "lessons": "8 lessons • 6h 00m" },
+      { "chapter": "04", "title": "Backend APIs, Database Architecture & Deployment", "lessons": "6 lessons • 6h 15m" }
+    ]
   },
   {
     "id": 2,
     "title": "Modern React.js Development",
     "instructor": "Sarah Wilson",
+    "instructor_image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Frontend architect specializing in modern React ecosystems, performance optimization, and production-ready component libraries.",
+    "enrolled": "980+ Enrolled",
     "duration": "15 hours",
     "rating": 4.9,
     "level": "Intermediate",
-    "description": "Build modern and interactive web applications using React.js.",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&auto=format&fit=crop&q=60",
-    "category": "Development",
     "price": "$39.99",
-    "instructor_image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Development",
+    "description": "Build high-performance, interactive single page web applications using modern React patterns, custom hooks, and state management.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Master React Hooks, Custom Hooks, and Context API",
+      "Implement scalable state management solutions",
+      "Optimize rendering performance and handle asynchronous operations",
+      "Build production-grade dynamic interfaces with smooth animations"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "React Architecture & Advanced Component Patterns", "lessons": "5 lessons • 2h 45m" },
+      { "chapter": "02", "title": "State Architecture: Context API & Custom Hooks", "lessons": "6 lessons • 4h 00m" },
+      { "chapter": "03", "title": "Routing, Protected Views & Form Validation", "lessons": "5 lessons • 4h 15m" },
+      { "chapter": "04", "title": "Performance Tuning, Testing & Production Builds", "lessons": "4 lessons • 4h 00m" }
+    ]
   },
   {
     "id": 3,
     "title": "UI/UX Design Masterclass",
     "instructor": "Michael Brown",
+    "instructor_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Lead product designer with a background in designing consumer apps, complex design systems, and conducting iterative UX research.",
+    "enrolled": "850+ Enrolled",
     "duration": "12 hours",
     "rating": 4.7,
     "level": "Beginner",
-    "description": "Learn the fundamentals of user interface and user experience design.",
-    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&auto=format&fit=crop&q=60",
-    "category": "Design",
     "price": "$49.99",
-    "instructor_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Design",
+    "description": "Learn the complete end-to-end design process from wireframing, typography, color theory, and prototyping in Figma to handoff.",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Master Figma tools, auto-layout, components, and design systems",
+      "Understand user research, user journey mapping, and wireframing",
+      "Design accessible, modern UI layouts with balanced typography and color",
+      "Create interactive prototypes and prepare assets for developer handoff"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Foundations of UX: User Research & Information Architecture", "lessons": "4 lessons • 2h 00m" },
+      { "chapter": "02", "title": "Figma Essentials: Auto-Layout, Variants & Component Tokens", "lessons": "7 lessons • 4h 30m" },
+      { "chapter": "03", "title": "Visual Design: Typography, Colors & Micro-Interactions", "lessons": "5 lessons • 3h 15m" },
+      { "chapter": "04", "title": "Interactive Prototyping, Usability Testing & Handoff", "lessons": "4 lessons • 2h 15m" }
+    ]
   },
   {
     "id": 4,
     "title": "Python for Data Science",
     "instructor": "Emily Johnson",
+    "instructor_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Data scientist and quantitative analyst passionate about exploratory data analysis, statistical modeling, and teaching practical Python.",
+    "enrolled": "1,100+ Enrolled",
     "duration": "18 hours",
     "rating": 4.8,
     "level": "Intermediate",
-    "description": "Analyze data and build practical projects using Python and popular data science tools.",
-    "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHl0aG9uJTIwZm9yJTIwRGF0YSUyMFNjaWVuY2V8ZW58MHwyfDB8fHwy",
-    "category": "Data Science",
-    "tag": "Trending",
     "price": "$89.99",
-    "instructor_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Data Science",
+    "description": "Analyze complex datasets, clean structured data, and build insightful statistical visual dashboards using Python, NumPy, and Pandas.",
+    "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Clean, filter, aggregate, and reshape structured datasets with Pandas",
+      "Perform numerical computations and matrix algebra using NumPy",
+      "Create statistical charts with Matplotlib and Seaborn",
+      "Conduct exploratory data analysis (EDA) on real-world datasets"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Python Environment Setup & Core Data Structures", "lessons": "5 lessons • 2h 30m" },
+      { "chapter": "02", "title": "Data Wrangling & Manipulation with NumPy and Pandas", "lessons": "8 lessons • 6h 00m" },
+      { "chapter": "03", "title": "Data Visualization & Dashboard Design", "lessons": "6 lessons • 4h 30m" },
+      { "chapter": "04", "title": "Exploratory Data Analysis Capstone Project", "lessons": "4 lessons • 5h 00m" }
+    ]
   },
   {
     "id": 5,
     "title": "Digital Marketing Fundamentals",
     "instructor": "David Miller",
+    "instructor_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Growth marketing consultant with proven success executing high-ROI paid media campaigns, SEO strategies, and conversion funnels.",
+    "enrolled": "730+ Enrolled",
     "duration": "10 hours",
     "rating": 4.6,
     "level": "Beginner",
-    "description": "Learn SEO, social media marketing, content strategy, and digital advertising.",
-    "image": "https://images.unsplash.com/photo-1664454715791-00fa65761ea1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpZ2l0YWwlMjBNYXJrZXRpbmclMjBGdW5kYW1lbnRhbHN8ZW58MHwyfDB8fHwy",
-    "category": "Marketing",
     "price": "$29.99",
-    "instructor_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+    "tag": "New Release",
+    "category": "Marketing",
+    "description": "Learn search engine optimization (SEO), social media marketing campaigns, high-converting copy, and paid advertising funnels.",
+    "image": "https://images.unsplash.com/photo-1664454715791-00fa65761ea1?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Master keyword research, technical SEO, and on-page optimization",
+      "Set up target-driven Google Search & Meta ad campaigns",
+      "Build automated email marketing workflows and high-converting funnels",
+      "Track marketing ROI and conversion funnels with Google Analytics"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Digital Strategy & Audience Funnel Mapping", "lessons": "3 lessons • 1h 45m" },
+      { "chapter": "02", "title": "SEO Foundations: Keywords, On-Page & Technical Audits", "lessons": "5 lessons • 3h 00m" },
+      { "chapter": "03", "title": "Paid Ads: Meta Ads Manager & Google Search Ads", "lessons": "6 lessons • 3h 15m" },
+      { "chapter": "04", "title": "Email Sequences, Analytics & Conversion Optimization", "lessons": "4 lessons • 2h 00m" }
+    ]
   },
   {
     "id": 6,
     "title": "Machine Learning with Python",
     "instructor": "Sophia Anderson",
+    "instructor_image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Machine learning researcher and engineer specialized in predictive algorithmic models, neural architectures, and end-to-end deployment.",
+    "enrolled": "1,420+ Enrolled",
     "duration": "22 hours",
     "rating": 4.9,
     "level": "Advanced",
-    "description": "Understand machine learning concepts and build real-world predictive models with Python.",
-    "image": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFjaGluZSUyMExlYXJuaW5nJTIwd2l0aCUyMFB5dGhvbnxlbnwwfDJ8MHx8fDI%3D",
-    "category": "Artificial Intelligence",
-    "tag": "Trending",
     "price": "$79.99",
-    "instructor_image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Artificial Intelligence",
+    "description": "Understand core machine learning theory, build predictive algorithms with Scikit-Learn, and deploy trained models via APIs.",
+    "image": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Implement supervised learning (Regression, Decision Trees, SVM)",
+      "Apply unsupervised algorithms (K-Means, PCA Dimensionality Reduction)",
+      "Evaluate models with cross-validation, precision, recall, and ROC curves",
+      "Deploy trained ML models to production with FastAPI and cloud platforms"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Foundations: Linear Algebra, Statistics & Preprocessing", "lessons": "5 lessons • 3h 30m" },
+      { "chapter": "02", "title": "Supervised Learning Algorithms & Hyperparameter Tuning", "lessons": "7 lessons • 7h 00m" },
+      { "chapter": "03", "title": "Unsupervised Learning & Feature Engineering", "lessons": "6 lessons • 5h 30m" },
+      { "chapter": "04", "title": "Model Evaluation, Pipeline Optimization & Deployment", "lessons": "5 lessons • 6h 00m" }
+    ]
   },
   {
     "id": 7,
     "title": "Professional Graphic Design",
     "instructor": "Daniel Smith",
+    "instructor_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Creative director and digital artist with 10+ years shaping brand aesthetics, print collaterals, and vector illustration systems.",
+    "enrolled": "620+ Enrolled",
     "duration": "14 hours",
     "rating": 4.7,
     "level": "Intermediate",
-    "description": "Master visual design principles and create professional digital graphics.",
-    "image": "https://images.unsplash.com/photo-1740059021917-425431914689?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHJvZmVzc2lvbmFsJTIwR3JhcGhpYyUyMERlc2lnbnxlbnwwfDJ8MHx8fDI%3D",
-    "category": "Design",
     "price": "$39.99",
-    "instructor_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+    "tag": "New Release",
+    "category": "Design",
+    "description": "Master visual brand identity, digital vector illustration, photo retouching, and commercial layout design using Photoshop and Illustrator.",
+    "image": "https://images.unsplash.com/photo-1740059021917-425431914689?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Master vector drafting, logo creation, and brand assets in Illustrator",
+      "Advanced photo compositing, masks, and color correction in Photoshop",
+      "Apply strict typography grids and visual hierarchy rules",
+      "Prepare assets for digital publications and commercial print outputs"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Design Principles: Composition, Contrast & Color Theory", "lessons": "4 lessons • 2h 30m" },
+      { "chapter": "02", "title": "Vector Crafting: Branding, Badges & Logo Design", "lessons": "6 lessons • 4h 30m" },
+      { "chapter": "03", "title": "Photo Manipulation, Retouching & Asset Isolation", "lessons": "6 lessons • 4h 00m" },
+      { "chapter": "04", "title": "Brand Guidelines Creation & Production Asset Export", "lessons": "4 lessons • 3h 00m" }
+    ]
   },
   {
     "id": 8,
     "title": "Introduction to Cybersecurity",
     "instructor": "James Taylor",
+    "instructor_image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "instructor_bio": "Information security analyst and certified ethical hacker focused on web vulnerability detection and infrastructure defense.",
+    "enrolled": "890+ Enrolled",
     "duration": "16 hours",
     "rating": 4.8,
     "level": "Beginner",
-    "description": "Learn the fundamentals of cybersecurity, online threats, and security best practices.",
-    "image": "https://images.unsplash.com/photo-1667670778881-537035257bd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfDJ8MHx8fDI%3D",
-    "category": "Cybersecurity",
-    "tag": "Trending",
     "price": "$89.99",
-    "instructor_image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80"
+    "tag": "Trending",
+    "category": "Cybersecurity",
+    "description": "Learn cybersecurity fundamentals, network defense strategies, malware analysis concepts, and enterprise vulnerability prevention.",
+    "image": "https://images.unsplash.com/photo-1667670778881-537035257bd8?w=600&auto=format&fit=crop&q=60",
+    "what_you_will_learn": [
+      "Understand TCP/IP networking, packet analysis, and firewalls",
+      "Identify common web vulnerabilities (OWASP Top 10)",
+      "Learn encryption algorithms, hashing, and public-key infrastructure",
+      "Formulate incident response plans and digital security hardening guides"
+    ],
+    "curriculum": [
+      { "chapter": "01", "title": "Networking Basics & Core Security Architecture", "lessons": "5 lessons • 3h 00m" },
+      { "chapter": "02", "title": "Threat Modeling: Malware, Phishing & Social Engineering", "lessons": "6 lessons • 4h 30m" },
+      { "chapter": "03", "title": "Web Application Security & OWASP Defense", "lessons": "6 lessons • 4h 30m" },
+      { "chapter": "04", "title": "Cryptography, Network Hardening & Incident Response", "lessons": "4 lessons • 4h 00m" }
+    ]
   }
 ]
