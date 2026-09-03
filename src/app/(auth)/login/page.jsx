@@ -34,7 +34,6 @@ export default function LoginPage() {
               placeholder="Type your email here"
               {...register("email")}
             />
-            {/* <p className="label">Optional</p> */}
           </fieldset>
           <fieldset className="fieldset">
             <legend className="fieldset-legend  text-lg md:text-xl">

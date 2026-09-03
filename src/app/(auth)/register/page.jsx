@@ -37,16 +37,26 @@ export default function RegisterPage() {
               {...register("name")}
             />
           </fieldset>
+            <fieldset className="fieldset">
+            <legend className="fieldset-legend text-lg md:text-xl">
+              Name
+            </legend>
+            <input
+              type="text"
+              className="input"
+              placeholder="Type your URL here"
+              {...register("PhotoURL",{required:"Photo URL required"})}
+            />
+          </fieldset>
           <fieldset className="fieldset">
             <legend className="fieldset-legend text-lg md:text-xl">
               Email
             </legend>
             <input
               type="email"
-              id="email"
               className="input"
               placeholder="Type your email here"
-              {...register("email")}
+              {...register("email",{required:"Email is required"})}
             />
           </fieldset>
           <fieldset className="fieldset">
@@ -60,7 +70,7 @@ export default function RegisterPage() {
               placeholder="Type your password here"
               {...register("password", { required: true })}
             />
-            {errors.password && <span className="text-lg md:text-xl text-white ">This field is required</span>}
+            {errors.password && <span className="text-lg md:text-xl text-red-500 ">This field is required</span>}
           </fieldset>
 
           <button className="flex justify-center mt-5 w-full gap-2 btn rounded-3xl bg-black text-white border-none hover:bg-gray-700">
