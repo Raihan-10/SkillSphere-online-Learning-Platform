@@ -13,10 +13,16 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <p>Contact</p>
+          <div className="flex flex-col gap-3 text-sm text-gray-400">
+            <p className="font-semibold text-base text-white">Contact</p>
+            <p>Email: support@skillsphere.com</p>
+            <p>Phone: +880 16901022</p>
+            <p>Location: Dhaka, Bangladesh</p>
+          </div>
+
         </div>
         <div className="list-none flex items-center justify-center gap-5 flex-col text-gray-300 font-bold">
-            
+
           <li>
             <Link
               href="https://facebook.com"
@@ -63,10 +69,10 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <hr className="text-gray-600 mt-5"/>
+      <hr className="text-gray-600 mt-5" />
       <footer className="mt-2 text-center">
         {/* <marquee className="text-gray-400">&copy; skillsphere 2026</marquee> */}
-      <p className="text-gray-400">&copy; skillsphere 2026</p>
+        <p className="text-gray-400">&copy; skillsphere 2026</p>
       </footer>
     </div>
   );
