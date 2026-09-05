@@ -1,6 +1,8 @@
 "use client";
+
 import Link from "next/link";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import pic from "../../public/images/avatar.webp";
@@ -8,14 +10,20 @@ import pic from "../../public/images/avatar.webp";
 export default function Navbar() {
   const { data: session, isPending } = authClient.useSession();
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
   const user = session?.user;
+
+  const isActive = (path) => {
+    if (path === "/") return pathname === "/";
+    return pathname.startsWith(path);
+  };
 
   return (
     <div className="sticky top-0 z-50 shadow-md bg-gray-800 text-white px-5 py-4">
       <div className="flex items-center justify-between">
-        <p className="font-bold text-3xl">
+        <Link href="/" className="font-bold text-3xl">
           <span className="text-blue-500">Skill</span>sphere
-        </p>
+        </Link>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -46,15 +54,42 @@ export default function Navbar() {
           </svg>
         </button>
 
-        <div className="hidden md:flex justify-center gap-5 list-none">
+        <div className="hidden md:flex justify-center items-center gap-6 list-none">
           <li>
-            <Link href="/">Home</Link>
+            <Link
+              href="/"
+              className={`pb-1 transition duration-150 ${
+                isActive("/")
+                  ? "text-blue-400 font-semibold border-b-2 border-blue-400"
+                  : "text-gray-300 hover:text-white"
+              }`}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/course">Courses</Link>
+            <Link
+              href="/course"
+              className={`pb-1 transition duration-150 ${
+                isActive("/course")
+                  ? "text-blue-400 font-semibold border-b-2 border-blue-400"
+                  : "text-gray-300 hover:text-white"
+              }`}
+            >
+              Courses
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link
+              href="/about"
+              className={`pb-1 transition duration-150 ${
+                isActive("/about")
+                  ? "text-blue-400 font-semibold border-b-2 border-blue-400"
+                  : "text-gray-300 hover:text-white"
+              }`}
+            >
+              About
+            </Link>
           </li>
         </div>
 
@@ -104,17 +139,41 @@ export default function Navbar() {
         <div className="md:hidden flex flex-col gap-4 pt-4 mt-4 border-t border-gray-700">
           <div className="flex flex-col gap-3 list-none">
             <li>
-              <Link href="/" onClick={() => setIsOpen(false)}>
+              <Link
+                href="/"
+                onClick={() => setIsOpen(false)}
+                className={`block py-1 ${
+                  isActive("/")
+                    ? "text-blue-400 font-semibold pl-2 border-l-2 border-blue-400"
+                    : "text-gray-300 hover:text-white"
+                }`}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/course" onClick={() => setIsOpen(false)}>
+              <Link
+                href="/course"
+                onClick={() => setIsOpen(false)}
+                className={`block py-1 ${
+                  isActive("/course")
+                    ? "text-blue-400 font-semibold pl-2 border-l-2 border-blue-400"
+                    : "text-gray-300 hover:text-white"
+                }`}
+              >
                 Courses
               </Link>
             </li>
             <li>
-              <Link href="/about" onClick={() => setIsOpen(false)}>
+              <Link
+                href="/about"
+                onClick={() => setIsOpen(false)}
+                className={`block py-1 ${
+                  isActive("/about")
+                    ? "text-blue-400 font-semibold pl-2 border-l-2 border-blue-400"
+                    : "text-gray-300 hover:text-white"
+                }`}
+              >
                 About
               </Link>
             </li>
