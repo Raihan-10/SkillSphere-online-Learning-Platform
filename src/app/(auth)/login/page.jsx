@@ -19,13 +19,7 @@ function LoginFormContent() {
   const [showPassword, setShowPassword] = useState(false);
   const searchParams = useSearchParams();
   const callbackURL = searchParams.get("callbackURL") || "/";
-  const handleGoogleSignIn = async () => {
-    const data = await authClient.signIn.social({
-      provider: "google",
-      callbackURL: "/",
-    });
-  };
-
+ 
   const handleLoginForm = async (info) => {
     const { data, error } = await authClient.signIn.email({
       email: info.email,
@@ -92,16 +86,7 @@ function LoginFormContent() {
             <span className="md:text-xl">Login</span>
             <RiLoginBoxFill className="md:text-2xl text-xl  hover:text-green-500" />
           </button>
-          <hr className="h-1 mt-5 text-gray-400 border-dotted" />
-          <p className="flex flex-col items-center justify-center">
-            <span>Or</span>{" "}
-            <span
-              className="btn bg-black text-white rounded-3xl"
-              onClick={handleGoogleSignIn}
-            >
-              Login with Google
-            </span>
-          </p>
+         
         </form>
         <p>
           Create an account.{" "}
