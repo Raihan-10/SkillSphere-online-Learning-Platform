@@ -8,6 +8,10 @@ export const auth = betterAuth({
     // Optional: if you don't provide a client, database transactions won't be enabled.
     client
   }),
+  trustedOrigins: [
+    "https://skill-sphere-online-learning-platfo-ten.vercel.app",
+    "http://localhost:3000"
+  ],
   //...other options
   emailAndPassword: { 
     enabled: true, 
